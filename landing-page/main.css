@@ -51,10 +51,6 @@ header{
 
 
 
-.card>h3{
-
-}
-
 .container{
     display: grid;
     grid-template-rows: 1fr 336px 1fr;
