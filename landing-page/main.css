@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    align-items: center;
+    background-color: #696969;
+    display: grid;
+    grid-template-columns: 39% 61%;
+   
+}
+.icones{
+    grid-template-rows: 67px 78px;
+    display: grid;
+}
+    
+
+
+#logo{
+    margin: -39px;
+    height: 295px;
+    margin-top: -83px;
+    display: grid;
+
+}
+
+#icone{
+    height: 70px;
+}
+.card{
+    margin-top: 25px;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+    grid-template-rows: 1fr;
+    align-items: inherit;
+}
+
+.icones>p{
+    font-size: 19px;
+    align-items: flex-start;
+    display: grid; 
+    margin-top: 12px;
+
+}
+
+
+
+.card>h3{
+
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 1fr 336px 1fr;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.propaganda{
+    background-color: #060606;
+    justify-content: center;
+    width: 100%;
+    grid-row: 1/1;
+    grid-column: 5/1;
+    display: grid;
+    border: 1px solid black;
+    height: 411px;
+    align-items: center;
+}
+
+
+.propaganda>h1{
+    color: white;
+    text-align: -webkit-center;
+}
+.propaganda>h2{
+    margin-left: 444px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+.propaganda>h3{
+    font-size: 34px;
+    color: white;
+    text-align: -webkit-center;
+    position: absolute;
+    margin-top: 127px;
+    margin-left: 430px;
+    color: #ff5c5c;
+}
+
+
+.propaganda>h4{
+    font-size: 32px;
+    margin-top: 46px;
+    color: #ff5c5c;
+    text-align: -webkit-center;
+    margin-right: -333px;
+}
+
+
+#frase{
+    text-align: center;
+    color: #ff5C5C;
+}
+
+#carros{
+    align-self: center;
+    width: 500px;
+    display: grid;
+    justify-self: center;
+}
+
+
+.lado-esquerdo{
+    background-color: #696969;
+    grid-column: 1/3;
+    display: grid;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.lado-esquerdo>img{
+    height: 50px;
+}
+.lado-direito{
+    
+    line-height: 52px;
+    background-color: #696969;
+    width: 100%;
+    display: grid;
+    border: 1px solid rgb(0, 0, 0);
+    grid-column: 3/5;
+}
+
+
+.lado-direito>ul>li{
+    font-size: 21px;
+    text-align: -webkit-center;
+    list-style: none;
+    color: #ff5c5c;
+}
+
+
+.quem-somos{
+    margin-top: 23px;
+    grid-column: 1/3;
+    display: grid;
+    grid-row: 3/3;
+    border: 3px solid black;
+    height: 363px;
+    margin-left: -725px;
+}
+
+
+
+.footer{
+    text-align: center;
+    display: grid;
+    background-color: #696969;
+    margin-top: -48px;
+    height: 200px;
+    display: grid;
+    border: 1px solid black;
+}
+
+.footer>h1{
+    display: grid;
+    align-items: center;
+}
+.footer>a>img{
+    display: grid;
+    height: 20px;
+}
+
+
+
