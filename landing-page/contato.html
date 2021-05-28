@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/contato.css" />
     <title>4Cars</title>
   </head>
 
@@ -42,14 +43,42 @@
         </div>
     </header>
 
-    <main>
+    <main class = "contato">
       <div class="formulario-contato">
-        
+        <form>
+          <p>Entre em contato conosco</p>
+            <p><label form="nome">Nome:</label>
+                <input type="text" name="tNome" id="nome" size="20" maxlength="30" placeholder="Nome completo" required></p>
+            <p><label form="email">E-mail:</label>
+                <input type="email" name="tMail" id="email" size="20" maxlength="40" placeholder="seuemail@dominio.com" required></p>
+            
+            <p><label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone-usuario" id = "telefone" size="20" maxlength="12" placeholder="(XX) XXXXX-XXXX" required></p>
+            <p><label for="mensagem">Mensagem:</label></p>
+            <br>
+            <textarea name="mensagem-texto" id="mensagem" cols="35" rows="5" placeholder="Deixe aqui sua mensagem" required></textarea></p>
+
+            <p>Como prefere nosso contato?</p>
+            <p><label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail</label></p>
+            <p><label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label></p>
+            <p><label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label></p>
+          
+
+            <p>Qual Horário prefere ser atendido?</p>
+            <select name="horario-atendimento" id="horario">
+                <option value="manha">Manha</option>
+                <option value="tarde">Tarde</option>
+                <option value="noite">Noite</option>
+            </select><br>
+            <button type="submit">Enviar</button>
+        </form>
       </div>
     </main>
 
     <footer>
-      <div class="footer">footer</div>
+      <div class="footer">
+        <p>Copyright &copy; by Igor, Izabella Josiel</p>
+      </div>
     </footer>
   </body>
 </html>
