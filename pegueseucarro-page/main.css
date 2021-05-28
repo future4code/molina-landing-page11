@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecario{
+        background-color: black;
+        color: wheat;
+        height: auto;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 22px;
+    margin-right: 20px;
+}
+
+.logoauto{
+    height: 50px;
+}
+
+.info{
+    text-align: center ;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.le{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 5px orangered;
+    text-align: center;
+}
+
+.carros{
+    height: 70%;
+}
