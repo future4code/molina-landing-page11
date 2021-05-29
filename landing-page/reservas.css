@@ -1,0 +1,24 @@
+.info{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.le{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 5px orangered;
+    text-align: center;
+}
+
+.carros{
+    height: 70%;
+}
