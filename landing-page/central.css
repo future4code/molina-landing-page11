@@ -1,0 +1,69 @@
+#conteiner-central-motorista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#conteiner-central{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div-esquerda{
+    text-align: center;
+}
+#div-esquerda > img{
+    width: 50%;
+    height: 50%;
+}
+
+#div-direita{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#insira-cpf{
+    font-size: 2em;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+#enviar-whatsapp{
+    background-color: #34af23;
+    color: white;
+}
+
+#enviar-sms{
+    background-color: blue;
+    color: white;
+}
+
+#enviar-whatsapp, #enviar-sms{
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    font-weight: bold;
+    width: 90%;
+    border: none;
+}
+
+a{
+    color:#ff5C5C;
+    font-weight: bold;
+    text-decoration:none;
+}
+@media (max-width: 400px){
+    #conteiner-central {
+        flex-direction: column;
+    }
+
+    #insira-cpf{
+        font-size: 1em;
+    }
+}
