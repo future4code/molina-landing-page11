@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css"/>
-    <link rel="stylesheet" href="servicos.css"/>
+    <link rel="stylesheet" href="central.css"/>
     <title>4Cars</title>
   </head>
 
@@ -42,24 +42,26 @@
 
         <div class="icones">
           
-         <a href="reservas.html"> <img id="icone" src="./img/chave-p&b.png" alt="Reservar carros" /></a>
+         <a href="reservas.html"> <img id="icone" src="./img/chave-p&b.png" alt="Pegue seu Carro" /></a>
           <p>RESERVAS</p>
         </div>
       </div>
     </header>
-<main>
-<div class="container">
-<h1>Ofereçemos duas categorias de veículos para você:</h1>
 
-<img id="popular" src="./img/motorista-1.jpeg" alt=""> 
-
-<img id="luxo" src="./img/motorista-2.jpeg" alt="">
-
-
-
-</div>
-
-</main>
+    <main id="conteiner-central-motorista">
+        <div id="conteiner-central">
+            <div id="div-esquerda">
+                <img src="/img/homem-dirigindo.jpg" alt="Homem dirigindo">
+            </div>
+            <div id="div-direita">
+                <p id="insira-cpf">Digite o número do seu CPF para acessar a Central do Motorista.</p>
+                <input type="tel" id="cpf" placeholder="000.000.000-00" required>
+                <button type="submit" id="enviar-whatsapp">Enviar Código Via Whatsapp</button>
+                <button  type="submit" id="enviar-sms">Enviar Código Via SMS</button>
+                <a href="central.html"><p>Alterar Telefone</p></a>
+            </div>
+        </div>
+    </main>
       
 
     <footer>
