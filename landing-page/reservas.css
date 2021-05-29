@@ -5,11 +5,27 @@
 
 }
 
+.info> ul>li{
+    font-size: 21px;
+}
+
 .container{
+    padding-bottom: 58px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.container>h2{
+    margin-top: 6px;
+    margin-bottom: 23px;
+
+}
+
+#luxo{
+    margin-top: 29px;
+
 }
 
 #carros-economy, #carros-luxo{
@@ -35,5 +51,27 @@
 }
 
 .carros{
-    height: 50%;
+    height: 47%;
+}
+
+.carros-luxo{
+    width: 79%;
+
+
+}
+
+@media (max-width: 400px) {
+
+#carros-economy{
+grid-template-columns: 1fr;
+grid-template-rows: repeat(3, 1fr);
+}
+
+#carros-luxo{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+
+
 }
