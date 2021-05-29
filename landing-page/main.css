@@ -58,7 +58,7 @@ header{
 }
 
 .propaganda{
-    background-color: #060606;
+    background-color: #909090;
     justify-content: center;
     width: 100%;
     grid-row: 1/1;
@@ -115,7 +115,7 @@ header{
 
 
 .lado-esquerdo{
-    background-color: #696969;
+    background-color: #909090;
     grid-column: 1/3;
     display: grid;
     border: 1px solid black;
@@ -123,12 +123,14 @@ header{
 }
 
 .lado-esquerdo>img{
-    height: 50px;
+    height: 334px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .lado-direito{
     
     line-height: 52px;
-    background-color: #696969;
+    background-color: #909090;
     width: 100%;
     display: grid;
     border: 1px solid rgb(0, 0, 0);
@@ -140,14 +142,14 @@ header{
     font-size: 21px;
     text-align: -webkit-center;
     list-style: none;
-    color: #ff5c5c;
+    color: #ffffff;
 }
 
 
 .quem-somos{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    background-color: #696969;
+    background-color: #909090;
     grid-column: 5/3;
     display: grid;
     grid-row: 3/3;
@@ -176,7 +178,7 @@ header{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     text-align: center;
     display: grid;
-    background-color: #696969;
+    background-color: #909090;
     margin-top: -48px;
     height: 200px;
     display: grid;
