@@ -10,6 +10,7 @@ body{
     grid-template-columns: 1fr;
     grid-template-rows: 200px 1fr 200px;
     height: 100vh;
+    background-color: #909090;
 
 }
 header{

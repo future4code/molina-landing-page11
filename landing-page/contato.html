@@ -47,7 +47,7 @@
     <main class = "contato">
       <div class="formulario-contato">
         <form>
-          <p>Entre em contato conosco</p>
+          <h2>Entre em contato conosco</h2>
             <p><label form="nome">Nome:</label>
                 <input type="text" name="tNome" id="nome" size="20" maxlength="30" placeholder="Nome completo" required></p>
             <p><label form="email">E-mail:</label>
@@ -55,17 +55,17 @@
             
             <p><label for="telefone">Telefone:</label>
             <input type="tel" name="telefone-usuario" id = "telefone" size="20" maxlength="12" placeholder="(XX) XXXXX-XXXX" required></p>
-            <p><label for="mensagem">Mensagem:</label></p>
+            <p class="margem-superior"><label for="mensagem">Mensagem:</label></p>
             <br>
             <textarea name="mensagem-texto" id="mensagem" cols="35" rows="5" placeholder="Deixe aqui sua mensagem" required></textarea></p>
 
             <p>Como prefere nosso contato?</p>
-            <p><label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail</label></p>
-            <p><label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label></p>
-            <p><label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label></p>
+            <p class="selecao"><label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail</label></p>
+            <p class="selecao"><label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label></p>
+            <p class="selecao"><label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label></p>
           
 
-            <p>Qual Horário prefere ser atendido?</p>
+            <p class="margem-superior">Qual Horário prefere ser atendido?</p>
             <select name="horario-atendimento" id="horario">
                 <option value="manha">Manha</option>
                 <option value="tarde">Tarde</option>

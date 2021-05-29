@@ -1,10 +1,8 @@
 .contato{
     text-align: center;
-    background-color: black;
 }
 .formulario-contato{
-    background-color: black;
-    color: #ff5c5c;
+    color: black;
     margin: 10px 0px;
     text-align: center;
     display: inline-block;
@@ -15,11 +13,19 @@ form{
     background-color: #909090;
     font-size: 1.5em;
 }
+.selecao{
+    text-align: left;
+    margin-left: 126px;
+}
+
+.margem-superior{
+    margin-top: 10px;
+}
 
 #botao-enviar{
     border-color: white;
-    color: #ff5c5c;
-    background-color: #909090;
+    color: black;
+    background-color: white;
     border-radius: 10px;
     padding: 10px;
     font-weight: bold;

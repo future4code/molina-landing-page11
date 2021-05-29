@@ -67,8 +67,29 @@
 }
 
 @media (max-width: 400px) {
+
+  #main{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    margin-top: 190px;
+    margin-bottom: 200px;
+  }
+
+  .popular>h2, .luxo>h2{
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
    
-  .container {
+  /* .container {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
   }
@@ -83,8 +104,5 @@
   #popular,
   #luxo {
     width: 100vw;
-  }
-
-  .footer {
-  }
+  } */
 }
