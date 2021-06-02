@@ -1,0 +1,57 @@
+.contato{
+    text-align: center;
+}
+.formulario-contato{
+    color: black;
+    margin: 10px 0px;
+    text-align: center;
+    display: inline-block;
+}
+
+form{
+    padding: 20px;
+    background-color: #909090;
+    font-size: 1.5em;
+}
+.selecao{
+    text-align: left;
+    margin-left: 126px;
+}
+
+.margem-superior{
+    margin-top: 10px;
+}
+
+#botao-enviar{
+    border-color: white;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    transition: 1s all;
+    border-color: none;
+    margin: 10px;
+}
+#form-add {
+    text-align: center;
+}
+
+
+#botao-enviar:hover{
+    color: #696969;
+    background-color: #ff5c5c;
+    cursor: pointer;
+}
+
+#botao-enviar:active{
+    color: #696969;
+    background-color: #ff5c5c;
+    cursor: pointer;
+}
+
+/* @media (max-width: 400px) {
+    .tela-com-videos {
+        grid-template-columns: 1fr;
+    }
+}  */

@@ -1,0 +1,77 @@
+.info{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.info> ul>li{
+    font-size: 21px;
+}
+
+.container{
+    padding-bottom: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container>h2{
+    margin-top: 6px;
+    margin-bottom: 23px;
+
+}
+
+#luxo{
+    margin-top: 29px;
+
+}
+
+#carros-economy, #carros-luxo{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* margin-left: auto; */
+}
+
+.la{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 5px rgb(73, 71, 70);
+    text-align: center;
+}
+
+.categ{
+    display: grid;
+    text-align: center;
+    background-color: #909090;
+    height: 50px;
+}
+
+.carros{
+    height: 47%;
+}
+
+.carros-luxo{
+    width: 79%;
+
+
+}
+
+@media (max-width: 400px) {
+
+#carros-economy{
+grid-template-columns: 1fr;
+grid-template-rows: repeat(3, 1fr);
+}
+
+#carros-luxo{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+
+
+}

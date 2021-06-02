@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="./contato.css" />
+    <title>4Cars</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="div-logo">
+        <a href="index.html">
+        <img id="logo" src="./img/4cars-removebg-preview.png" alt="logo-4cars" /></a>
+      </div>
+  
+        <div class="card">
+            <div class="icones">
+                <a href="servicos.html" ><img id="icone" src="./img/carro-servicos-p&b.png" alt="Serviços" /></a>
+                <p>SERVIÇOS</p>
+            </div>
+  
+            <div class="icones">
+                <a href="contato.html" ><img id="icone" src="./img/contato-p&b.png" alt="Fale Conosco" /></a>
+                <p>CONTATO</p>
+        </div>
+  
+        <div class="icones">
+            <a href="central.html">
+            <img
+            id="icone"
+            src="./img/central-motorista.png"
+            alt="Central do Motorista"
+            /></a>
+            <p>CENTRAL</p>
+        </div>
+
+        <div class="icones">
+            <a href="reservas.html">
+            <img id="icone" src="./img/chave-p&b.png" alt="Pegue seu Carro" /></a>
+            <p>RESERVAS</p>
+        </div>
+    </header>
+
+    <main class = "contato">
+      <div class="formulario-contato">
+        <form>
+          <h2>Entre em contato conosco</h2>
+            <p><label form="nome">Nome:</label>
+                <input type="text" name="tNome" id="nome" size="20" maxlength="30" placeholder="Nome completo" required></p>
+            <p><label form="email">E-mail:</label>
+                <input type="email" name="tMail" id="email" size="20" maxlength="40" placeholder="seuemail@dominio.com" required></p>
+            
+            <p><label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone-usuario" id = "telefone" size="20" maxlength="12" placeholder="(XX) XXXXX-XXXX" required></p>
+            <p class="margem-superior"><label for="mensagem">Mensagem:</label></p>
+            <br>
+            <textarea name="mensagem-texto" id="mensagem" cols="35" rows="5" placeholder="Deixe aqui sua mensagem" required></textarea></p>
+
+            <p>Como prefere nosso contato?</p>
+            <p class="selecao"><label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail</label></p>
+            <p class="selecao"><label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label></p>
+            <p class="selecao"><label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label></p>
+          
+
+            <p class="margem-superior">Qual Horário prefere ser atendido?</p>
+            <select name="horario-atendimento" id="horario">
+                <option value="manha">Manha</option>
+                <option value="tarde">Tarde</option>
+                <option value="noite">Noite</option>
+            </select><br>
+            <button id="botao-enviar" type="submit">Enviar</button>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer">
+          <h1>Nos acompanhe em nossas redes sociais!</h1>
+         
+         <a href="https://www.facebook.com/" target="_blank"><img src="./img/facebook.png" alt="facebook"></a>
+         <a href="https://www.instagram.com/" target="_blank"> <img src="./img/instagram.png" alt="facebook"></a>
+         <a href="https://www.youtube.com/" target="_blank"> <img src="./img/youtube.png" alt="facebook"></a>
+         <a href="https://www.linkedin.com/" target="_blank"> <img src="./img/Linkedin.png" alt="facebook"></a>
+
+      </div>
+    </footer>
+  </body>
+</html>
